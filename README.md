@@ -1,6 +1,6 @@
 # PPI2Text
 
-This is the official repository for the paper "PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding". 
+This is the repository for the paper "PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding". 
 
 ## Model Architecture
 
