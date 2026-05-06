@@ -2,13 +2,13 @@
 
 This is the official repository for the paper "PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding". 
 
-<div align="center">
-<img src="./figures/architecture.png" alt="Model Architecture" width="95%"/>
-</div>
+## Model Architecture
 
-<div align="center">
-<img src="./figures/pacorope.png" alt="PaCo-RoPE" width="80%"/>
-</div>
+![Model Architecture](./figures/architecture.png)
+
+## Pair-Coordinated Rotary Positional Encoding (PaCo-RoPE)
+
+![PaCo-RoPE](./figures/pacorope.png)
 
 ## Environment Installation
 
