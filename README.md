@@ -1,16 +1,14 @@
 # PPI2Text
 
-This is the official repository of the paper "PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding". 
+This is the official repository for the paper "PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding". 
 
-<figure style="text-align: center;">
-  <img src="./figures/architecture.png" alt="architecture">
-  <figcaption>PPI2Text Model Architecture</figcaption>
-</figure>
+<div align="center">
+<img src="./figures/architecture.png" alt="Model Architecture" width="95%"/>
+</div>
 
-<figure style="text-align: center;">
-  <img src="./figures/pacorope.png" alt="architecture">
-  <figcaption>Pair-Coordinated Rotational Positional Encoding (PaCo-RoPE)</figcaption>
-</figure>
+<div align="center">
+<img src="./figures/pacorope.png" alt="PaCo-RoPE" width="80%"/>
+</div>
 
 ## Environment Installation
 
