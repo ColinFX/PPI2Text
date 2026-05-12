@@ -1,5 +1,20 @@
 # PPI2Text
 
+<div align="center">
+<img src="https://img.shields.io/badge/Transformers-ff9d0b.svg" alt="transformers">
+<img src="https://img.shields.io/badge/Base-ESM--3-0082fb.svg" alt="based-on-esm">
+<img src="https://img.shields.io/badge/Base-Qwen3-5E5AE1" alt="based-on-llama">
+<img src="https://img.shields.io/badge/AI4Biology-green.svg" alt="ai4biology">
+<img src="https://img.shields.io/badge/License-MIT-darkgrey.svg" alt="license-mit">
+</div>
+
+<div align="center">
+| <a href="https://arxiv.org/abs/2605.08924">📃 Preprint</a> |
+<a href="https://huggingface.co/datasets/xiao-fei/PPI2Text-Dataset">🤗 Dataset</a> |
+</div>
+
+<br>
+
 This is the repository for the paper "PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding". 
 
 ## Model Architecture
@@ -116,3 +131,18 @@ python -m scripts.benchmark \
     --verbose True
 ```
 
+## © Citation
+
+If you find our research helpful, feel free to 🖋️ cite our work or ⭐️ star the repository:
+
+```
+@misc{fei2026ppi2text,
+      title={PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding}, 
+      author={Xiao Fei and Sarah Almeida Carneiro and Yang Zhang and Lawrence P. Petalidis and Achilleas Tsortos and Costas Bouyioukos and Michalis Vazirgiannis},
+      year={2026},
+      eprint={2605.08924},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE},
+      url={https://arxiv.org/abs/2605.08924}, 
+}
+```
