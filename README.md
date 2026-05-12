@@ -1,4 +1,4 @@
-# PPI2Text
+# PPI2Text: Captioning Protein-Protein Interactions with Coordinate-Aligned Pair-Map Decoding
 
 <div align="center">
 <img src="https://img.shields.io/badge/Transformers-ff9d0b.svg" alt="transformers">
