@@ -69,12 +69,12 @@ The training script reads the parquet directly via `--train_data_path` (Parquet 
 
 The data preprocessing pipeline chains:
 
-1. `derive_accessions_from_parquet.py` — parquet → unique accession list.
-2. `fetch_uniprot_sequences.py` — accessions → sequences JSONL via UniProt REST.
-3. `21_calculate_sasa.py` — accessions → SASA NPZ (downloads AlphaFold PDBs on the fly).
-4. `22_calculate_ss8.py` — PDBs → SS8 NPZ via DSSP.
-5. `23_preencode_esm3.py` — sequences + SASA + SS8 + PDBs → per-protein `esm3enc_<acc>.pt`.
-6. `24_embed_esm3.py` — encoded tokens → per-protein `esm3emb_<acc>.pt` (used by training via `--read_emb_dir`).
+1. `1_list_accessions.py` — parquet → unique accession list.
+2. `2_fetch_sequences.py` — accessions → sequences JSONL via UniProt REST.
+3. `3_calculate_sasa.py` — accessions → SASA NPZ (downloads AlphaFold PDBs on the fly).
+4. `4_calculate_ss8.py` — PDBs → SS8 NPZ via DSSP.
+5. `5_preencode_esm3.py` — sequences + SASA + SS8 + PDBs → per-protein `esm3enc_<acc>.pt`.
+6. `6_preembed_esm3.py` — encoded tokens → per-protein `esm3emb_<acc>.pt` (used by training via `--read_emb_dir`).
 
 You will also need the pretrained weights for ESM3 (`esm3-sm-open-v1`) and Qwen3 (`Qwen3-4B-Instruct-2507` or `Qwen3-8B`). Download them once and pass the local paths to the training and generation scripts.
 
